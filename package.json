@@ -1,7 +1,7 @@
 {
-  "name": "@horizon/client",
+  "name": "@nio/zenith-client",
   "version": "2.0.0",
-  "description": "RethinkDB Horizon is an open-source developer platform for building realtime, scalable web apps.",
+  "description": "zenith-client is a fork of client component of RethinkDB Horizon, an open-source developer platform for building realtime, scalable web apps.",
   "scripts": {
     "coverage": "cross-env NODE_ENV=test nyc mocha test/test.js",
     "dev": "webpack --watch --progress --colors",
@@ -56,14 +56,21 @@
   "jsmain:next": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/rethinkdb/horizon.git"
+    "url": "https://github.com/nioinnovation/zenith-client.git"
   },
   "author": "RethinkDB",
+  "contributors": [
+    {
+      "name": "n.io",
+      "email": "info@n.io",
+      "url": "https://n.io/"
+    }
+  ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rethinkdb/horizon/issues"
+    "url": "https://github.com/nioinnovation/zenith-client/issues"
   },
-  "homepage": "https://github.com/rethinkdb/horizon",
+  "homepage": "https://github.com/nioinnovation/zenith-client",
   "files": [
     "dist/horizon.js",
     "dist/horizon.js.map",
