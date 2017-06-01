@@ -80,7 +80,8 @@
     "dist/horizon-core.js.map",
     "dist/horizon-core-dev.js",
     "dist/horizon-core-dev.js.map",
-    "lib/*"
+    "lib/*",
+    "src/*"
   ],
   "babel": {
     "presets": [
