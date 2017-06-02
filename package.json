@@ -1,6 +1,6 @@
 {
   "name": "@nio/zenith-client",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "zenith-client is a fork of client component of RethinkDB Horizon, an open-source developer platform for building realtime, scalable web apps.",
   "scripts": {
     "coverage": "cross-env NODE_ENV=test nyc mocha test/test.js",
